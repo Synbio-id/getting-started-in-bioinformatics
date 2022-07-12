@@ -327,7 +327,7 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="https://forms.gle/ncvpfEpQoet2Dtg76">Pre-workshop Survey</a></p>
+<p><a href="https://forms.gle/ncvpfEpQoet2Dtg76" target="_blank">Pre-workshop Survey</a></p>
 {% endif %}
 
 <hr/>

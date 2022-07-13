@@ -66,18 +66,21 @@ https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatib
       </article>
       <article role="tabpanel" class="tab-pane" id="python-linux">
         <ol>
-          <li>Open <a href="https://www.anaconda.com/products/individual#download-section">https://www.anaconda.com/products/individual#download-section</a> with your web browser.</li>
-          <li>Download the Anaconda Installer with Python 3 for Linux.<br>
+          <li>We will be using miniconda to install Python 3 for Linux.<br>
             (The installation requires using the shell. If you aren't
             comfortable doing the installation yourself
             stop here and request help at the workshop.)
           </li>
           <li>
             Open a terminal window and navigate to the directory where
-            the executable is downloaded (e.g., `cd ~/Downloads`).
+            you want to download the executable (e.g., `cd ~/Downloads`).
           </li>
           <li>
-            Type <pre>bash Anaconda3-</pre> and then press
+            Type <pre>wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh</pre> and then press <kbd>Enter</kbd>
+            (or <kbd>Return</kbd> depending on your keyboard). It will download the executables.
+          </li>
+          <li>
+            Type <pre>bash Miniconda3-</pre> and then press
             <kbd>Tab</kbd> to autocomplete the full file name. The name of
             file you just downloaded should appear.
           </li>
